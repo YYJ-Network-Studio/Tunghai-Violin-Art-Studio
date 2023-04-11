@@ -14,64 +14,61 @@
     <!-- Static -->
     <link rel="stylesheet" href="static/css/css.css">
     <link rel="stylesheet" type="text/css" href="static/css/rwd.css">
+    <link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-    <nav>
-		<div class="title">東海提琴夢工場</div>
-		<input type="checkbox" id="click">
-    	<label for="click" class="menu">
-        	<i class="fas fa-bars"></i>
-    	</label>
-		<ul>
-			<li>
-				<a class="active" href="">首頁</a>
-            	<a href="">提琴製作</a>
-            	<a href="">提琴演奏</a>
-                <a href="">繪畫教學</a>
-                <a href="">文創商品</a>
-                <a href="">吉他演奏</a>
-			</li>
-		</ul>
-	</nav>
-    <div class="service">
-        <ul>
-            <li>
-                <h2>提琴製作</h2>
-                <span>這邊是簡介區。</span>
-                <a href=""><button type="button">瞭解更多</button></a>
-            </li>
-            <li>
-                <h2>提琴演奏</h2>
-                <span>這邊是簡介區。</span>
-                <a href=""><button type="button">瞭解更多</button></a>
-            </li>
-            <li>
-                <h2>繪畫教學</h2>
-                <span>這邊是簡介區。</span>
-                <a href=""><button type="button">瞭解更多</button></a>
-            </li>
-            <li>
-                <h2>文創商品</h2>
-                <span>這邊是簡介區。</span>
-                <a href=""><button type="button">瞭解更多</button></a>
-            </li>
-            <li>
-                <h2>吉他演奏</h2>
-                <span>這邊是簡介區。</span>
-                <a href=""><button type="button">瞭解更多</button></a>
-            </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">東海提琴夢工場</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="violin.html">提琴製作</a>
+                    <a class="nav-link" href="">提琴演奏</a>
+                    <a class="nav-link" href="">文創商品</a>
+                    <a class="nav-link" href="">吉他演奏</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <ul>
+                <li>
+                    <h2>提琴製作</h2>
+                    <span></span>
+                    <a href="violin.html">瞭解更多</a>
+                </li>
+                <li class="mt-5">
+                    <h2>提琴演奏</h2>
+                    <span></span>
+                    <a href="">瞭解更多</a>
+                </li>
+                <li class="mt-5">
+                    <h2>文創商品</h2>
+                    <span></span>
+                    <a href="">瞭解更多</a>
+                </li>
+                <li class="mt-5">
+                    <h2>吉他演奏</h2>
+                    <span></span>
+                    <a href="">瞭解更多</a>
+                </li>
+            </ul>
+        </div>
     </div>
-    <footer>
+    <footer class="bg-light mt-5" style="color: black;">
 		<div class="footer-social-media">
 			<a href="https://www.facebook.com/profile.php?id=100088167937144"><i class="fa-brands fa-facebook"></i></a>
-			<a href=""><i class="fa-brands fa-twitter"></i></a>
 			<a href="https://www.instagram.com/tunghaiartstudio/"><i class="fa-brands fa-instagram"></i></a>
 		</div>
 		<div class="footer-copyright">
 			<p>版權所有 &copy; 2023 東海提琴夢工場</p>
 		</div>
 	</footer>
-	<script src="https://kit.fontawesome.com/098165415c.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/098165415c.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>

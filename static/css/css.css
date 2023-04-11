@@ -16,99 +16,12 @@ a:hover {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-} 
-nav {
-    width: 100%;
-    height: 100px;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0 0 0 1%; /* Nav title position */
-    align-items: center;
-    background:	#272727;
-    justify-content: space-between;
 }
-nav .title {
-    color: white;
-    font-size: 35px;
-    font-weight: 600;
-    padding: -50px;
-}
-input[type="checkbox"] {
-    display: none; /*Remove checkbox*/
-}
-nav .menu i {
-    display: none;
-    color: white;
-}
-nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-}
-nav ul li {
-    margin: 0;
-}
-nav ul li a {
-    font-size: 20px;
-    color: #F2F2F2;
-    padding: 10px;
+ul li a {
+    padding: 3px;
+    color: #3C3C3C;
     border-radius: 5px;
-    letter-spacing: 1px;
-    text-decoration: none;
-    transition: all 0.3s ease;
-}
-nav ul li a.active,
-nav ul li a:hover {
-    color: black;
-    background: white;
-    text-decoration: none;
-}
-.service {
-    text-align: center;
-}
-.service li {
-    width: 80%;
-    margin: 10px;
-    height: 200px;
-    padding: 10px;
-    border-radius: 5px;
-    display: inline-block;
-    vertical-align: middle;
-    background-color: #FFFFFF;
-}
-.service li:hover {
-    box-shadow: 0px 0px 5px 1px rgba(255,255,255,0.1);
-    -moz-box-shadow: 0px 0px 5px 1px rgba(255,255,255,0.1);
-    -webkit-box-shadow: 0px 0px 5px 1px rgba(255,255,255,0.1);
-}
-.service li h2 {
-    color: #3C3B3B;
-    font-weight: bold;
-    margin-bottom: 5px;
-}
-.service li span {
-    font-size: 15px;
-    color: #7A7A7A;
-}
-.service li a {
-    text-decoration: none;
-}
-.service li button {
-    border: 0;
-    width: 150px;
-    height: 40px;
-    margin: 0 auto;
-    display: block;
-    margin-top: 5%;
-    color: #3C3B3B;
-    border-radius: 3px;
-    transition-duration: 0.5s;
-    border: 2px solid #ADADAD;
-    background-color: #F0F0F0;
-}   
-.service li button:hover {
-    border: 0;
-    border: 2px solid #6C6C6C;
+    background-color: #CCCCCC;
 }
 footer {
     width: 100%;
