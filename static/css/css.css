@@ -23,6 +23,14 @@ ul li a {
     border-radius: 5px;
     background-color: #CCCCCC;
 }
+.btn {
+    color: gray;
+    background-color: #F4F4F4;
+}
+.btn:hover {
+    color: gray;
+    background-color: #CCCCCC;
+}
 footer {
     width: 100%;
     color: white;
