@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+    <title>東海提琴夢工場</title>
+    <meta charset="utf-8">
+    <meta name="author" content="YYJ">
+    <meta name="distribution" content="Taiwan">
+    <meta name="revisit-after" content="3 days">
+    <meta http-equiv="content-language" content="zh-TW">
+    <meta name="copyright" content="版權所有 © 2023 東海提琴夢工場">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="description" content="提琴演奏與製作、繪畫、吉他彈奏，我們都教！歡迎熱愛藝術的您，一同來參與！">
+    <meta name="keywords" Lang="zh-TW" content="台中提琴,東海提琴,東海藝術,東海提琴夢工場,東海提琴夢工場工作室">
+    <meta name="keywords" Lang="EN" content="taichung violin,tunghai violin,tunghai art,tunghai violin art studio">
+    <!-- Static -->
+    <link rel="stylesheet" href="static/css/css.css">
+    <link rel="stylesheet" type="text/css" href="static/css/rwd.css">
+    <link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">東海提琴夢工場</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="violin.html">提琴製作</a>
+                    <a class="nav-link" href="violin.html">提琴演奏</a>
+                    <a class="nav-link" href="guitar.html">吉他演奏</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h1>闖關活動</h1>
+                <p>作答完畢後請出示螢幕畫面給工作人員查看，得分者可獲得原木杯墊一份！</p>
+                <div id="question"></div>
+                <form>
+                    <input type="radio" name="answer"><span></span><br>
+                    <input type="radio" name="answer"><span></span><br>
+                    <input type="radio" name="answer"><span></span><br>
+                </form>
+                <a onclick="submitAnswer()" class="btn">下一題</a>
+                <p>總分數：<span id="score"></span></p>
+            </div>
+        </div>
+    </div>
+    <footer class="bg-light" style="color: black;">
+		<div class="footer-social-media">
+			<a href="https://www.facebook.com/profile.php?id=100088167937144"><i class="fa-brands fa-facebook"></i></a>
+			<a href="https://www.instagram.com/tunghaiviolin"><i class="fa-brands fa-instagram"></i></a>
+		</div>
+		<div class="footer-copyright">
+			<p>版權所有 &copy; 2023 東海提琴夢工場</p>
+            <p>由<a href="https://yyjstudio.com">yyjstudio.com</a>設計開發與維護架設</p>
+		</div>
+	</footer>
+    <script src="static/js/qa.js"></script>
+    <script src="https://kit.fontawesome.com/098165415c.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
