@@ -24,9 +24,9 @@ const questions = [
         score: 20
     },
     {
-        question: "拉琴時沒有聲音是為什麼？",
-        answers: ["沒有裝上音柱", "弓毛因熱度過高導致無法讓弦發聲", "弓沒有擦上松香"],
-        correctAnswer: "弓沒有擦上松香",
+        question: "現場有一把彩繪提琴，請問他的名稱叫什麼？",
+        answers: ["採筍精靈", "採蜜精靈", "採木精靈"],
+        correctAnswer: "採筍精靈",
         score: 30
     }
 ];
