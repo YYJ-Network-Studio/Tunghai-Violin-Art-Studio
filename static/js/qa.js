@@ -6,20 +6,14 @@ const questions = [
         score: 10
     },
     {
-        question: "與提琴夢工場學習小提琴製作，需要買工具嗎？",
-        answers: ["需要，價格約5千~1萬", "需要，價格約1千~3千", "不需要，我們會提供"],
-        correctAnswer: "不需要，我們會提供",
-        score: 20
-    },
-    {
-        question: "製作提琴有沒有什麼門檻？",
+        question: "猜猜看：製作提琴有沒有什麼門檻？",
         answers: ["沒有，不限年齡", "有，學習製作一把提琴至少花費10~20萬", "有，需要花費很多體力"],
         correctAnswer: "沒有，不限年齡",
-        score: 20
+        score: 40
     },
     {
         question: "製作提琴第一件要做的事是什麼？",
-        answers: ["鋸面板或背板", "鋸側板", "製作模板"],
+        answers: ["鋸面板或背板", "鋸側板", "木模製作"],
         correctAnswer: "製作模板",
         score: 20
     },
